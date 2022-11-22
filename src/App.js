@@ -32,8 +32,8 @@ export default class App extends Component {
           </nav>
           <Routes>
             <Route path="/" exact element={<ToDosList />} />
-            <Route path="/create" exact element={<CreateToDo />} />
-            <Route path="/edit/:id" exact element={<EditToDo />} />
+            <Route path="/create"  element={<CreateToDo />} />
+            <Route path="/edit/:id"  element={<EditToDo />} />
           </Routes>
         </div>
       </Router>
